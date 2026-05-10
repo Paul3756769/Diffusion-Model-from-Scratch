@@ -1,6 +1,7 @@
 # Generating a Diffusion Model from scratch
 ## Project Description
 Modern generative AI models, such as those used for high-fidelity image synthesis, are deeply rooted in the physics of non-equilibrium statistical mechanics. In this semester- long, collaborative project, we will explore the equivalence between stochastic differential equations (SDEs), Langevin dynamics, and the "score-matching" techniques that power state-of-the-art diffusion models.
+
 Rather than relying entirely on textbooks or traditional lectures, student teams will use Large Language Models (LLMs) as active research collaborators to derive the underlying mathematics, write the simulation code, and map machine learning concepts back to theoretical physics. The ultimate goal is to critically navigate AI assistance: identifying when the LLM produces rigorous physical derivations, and when it "hallucinates" algebraic errors or unphysical numerical instabilities.
 
 Over 14 weeks, teams will progress through four key blocks:
@@ -23,4 +24,4 @@ The following rules apply:
 - **readability**: code and markdown files should be entirely readable and understandable for other project members. This means
     - all important context must be given, but short and concisely
     - notation should be consistent across files
-    - no random ai slop nobody understands
+    - no generic ai slop nobody understands
