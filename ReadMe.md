@@ -5,16 +5,22 @@ Rather than relying entirely on textbooks or traditional lectures, student teams
 
 Over 14 weeks, teams will progress through four key blocks:
 
-    Langevin Dynamics: Simulating the forward process and entropy production.
-    2D Manifold Learning: Learning the score function of a geometric distribution (e.g., a spiral).
-    High-Dimensional Generation Scaling up to a U-Net architecture to generate MNIST digits.
-    The Analytical Limit: Exploring exact Bayesian solutions and theoretical frameworks.
+- Langevin Dynamics: Simulating the forward process and entropy production.
+- 2D Manifold Learning: Learning the score function of a geometric distribution (e.g., a spiral).
+- High-Dimensional Generation Scaling up to a U-Net architecture to generate MNIST digits.
+- The Analytical Limit: Exploring exact Bayesian solutions and theoretical frameworks.
 
 ## Workflow and Repository Structure
-We are working in one-week sprints, with a goal to be set at the start of each week, and a presentation of our results at the end. For each week, a new subfolder is created, containing a goals.md file, jupyter notebooks, and a folder for our latex presentation.
+We are working in one-week sprints, with a goal to be set at the start of each week, and a presentation of our results at the end.
 
-If code logic can be reused, python files in the shared_code directory can be used and imported to the jupyter notebook.
+Results of our work are to be saved in the respective folders:
+- **presentations**: contains latex or pdf presentations
+- **notebooks**: contains our experiments, organised in jupyter notebooks
+- **knowledge base**: contains markdown summaries of concepts we learned
 
-To track our progress in understanding the subject, our learnings will be summarised by ai to markdown files in our knowledge base. This serves as a ressource for all of us to catch up on everything and may include detailed explanations and proofs that the slides cannot hold.
-
-To guide agentic work, a cursorrules.md is used to instruct the model.
+The following rules apply:
+- **descriptive naming**: filenames should unambigiously describe its content
+- **readability**: code and markdown files should be entirely readable and understandable for other project members. This means
+    - all important context must be given, but short and concisely
+    - notation should be consistent across files
+    - no random ai slop nobody understands
