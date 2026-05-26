@@ -8,7 +8,6 @@
 *.out
 *.synctex.gz
 *.toc
-*.pdf
 *.dvi
 *.ps
 build/
