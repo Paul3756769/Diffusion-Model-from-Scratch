@@ -1,4 +1,5 @@
 # Generating a Diffusion Model from scratch
+Daniel ist cool
 ## Project Description
 Modern generative AI models, such as those used for high-fidelity image synthesis, are deeply rooted in the physics of non-equilibrium statistical mechanics. In this semester- long, collaborative project, we will explore the equivalence between stochastic differential equations (SDEs), Langevin dynamics, and the "score-matching" techniques that power state-of-the-art diffusion models.
 
